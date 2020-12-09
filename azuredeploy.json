@@ -56,14 +56,14 @@
         },
         "virtualMachineName": {
             "type": "string",
-            "defaultValue": "EdVM",
+            "defaultValue": "adVM",
             "metadata": {
                 "description": "Virtual machine name."
             }
         },
         "virtualNetworkName": {
             "type": "string",
-            "defaultValue": "EdVNET",
+            "defaultValue": "adVNET",
             "metadata": {
                 "description": "Virtual network name."
             }
@@ -77,28 +77,28 @@
         },
         "loadBalancerFrontEndIPName": {
             "type": "string",
-            "defaultValue": "EdLBFE",
+            "defaultValue": "LBFE",
             "metadata": {
                 "description": "Load balancer front end IP address name."
             }
         },
         "backendAddressPoolName": {
             "type": "string",
-            "defaultValue": "EdLBBE",
+            "defaultValue": "LBBE",
             "metadata": {
                 "description": "Backend address pool name."
             }
         },
         "inboundNatRulesName": {
             "type": "string",
-            "defaultValue": "EdRDP",
+            "defaultValue": "adRDP",
             "metadata": {
                 "description": "Inbound NAT rules name."
             }
         },
         "networkInterfaceName": {
             "type": "string",
-            "defaultValue": "EdNic",
+            "defaultValue": "adNic",
             "metadata": {
                 "description": "Network interface name."
             }
@@ -112,7 +112,7 @@
         },
         "subnetName": {
             "type": "string",
-            "defaultValue": "EdSubnet",
+            "defaultValue": "adSubnet",
             "metadata": {
                 "description": "Subnet name."
             }
@@ -126,21 +126,21 @@
         },
         "publicIPAddressName": {
             "type": "string",
-            "defaultValue": "EdPublicIP",
+            "defaultValue": "adPublicIP",
             "metadata": {
                 "description": "Subnet IP range."
             }
         },
         "availabilitySetName": {
             "type": "string",
-            "defaultValue": "EdAvailabiltySet",
+            "defaultValue": "adAvailabiltySet",
             "metadata": {
                 "description": "Availability set name."
             }
         },
         "loadBalancerName": {
             "type": "string",
-            "defaultValue": "EdLoadBalancer",
+            "defaultValue": "adLoadBalancer",
             "metadata": {
                 "description": "Load balancer name."
             }
